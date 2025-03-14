@@ -1,6 +1,6 @@
 module "s3_bucket" {
-    source = "../terraform-aws-s3-module"
-    bucket_name = "terraform-module-s3-demo"
+    source = "../terraform_modules_demo"
+    bucket_name = "terraform-module-s3-demo-1333777"
     acl = "private"
 }
 
